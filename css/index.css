@@ -1,0 +1,328 @@
+@charset"utf-8";
+.nav-bg{
+	background-color: #fff;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav-bg a:link{
+	color:black;
+}
+#cm{
+	position: absolute;
+	left: 80px;
+	font-size: 30px;
+}
+#dh{
+	position: absolute;
+	left: 250px;
+}
+li{
+	font-size: 20px;
+}
+.ct{
+	text-align: center;
+}
+.aright{
+	float: right;
+}
+.modal-dialog {
+	position: absolute !important;
+	top:50% !important;
+	left:50% !important;
+	transform:translate(-50%,-50%) !important;
+	-webkit-transform:translate(-50%,-50%) !important;
+	-moz-transform:translate(-50%,-50%) !important;
+	-ms-transform:translate(-50%,-50%) !important;
+	-o-transform:translate(-50%,-50%) !important;    
+}
+.modal-header h4{
+	font-size: 20px;
+}
+#myCarousel{
+	margin:0 auto;
+	width:100%;
+	max-height: 2000px;
+	height: 830px;
+}
+#myCarousel img{
+	width:100%;
+	margin:0 auto;
+	height: auto;
+	max-height:830px;
+}
+.cl{
+	margin-top: -500px;
+	font-size: 50px;
+	color: #000;
+	opacity: 0.7;
+}
+.cl-s{
+	display: block;
+	font-size: 70px;
+}
+.downpoint{
+	font-size: 30px;
+	color: #003300;
+	margin-top: 300px;
+}
+.ctn{
+	margin-top: 20px;
+	height:auto;
+	width:100%;
+}
+.article{  
+    width: 100%;  
+    margin: 0 auto;  
+    height: 1000px;    
+    font: 24px/1.5 'Microsoft YaHei';  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-position: center center;  
+    background-size: cover;   
+}  
+.section1{
+	color:white;
+	background-image: url("images/01.jpg");
+}
+.section2{
+	color: #fff;
+	background-image: url("images/05.jpg");
+}
+.section3{
+	color: #fff;
+	background-image: url("images/32.jpg");
+}
+.rr{
+	opacity: 0.5;
+}
+.text{
+	background-image: url("images/53.png");
+	height: 400px;
+	width:400px;
+	font-size: 50px;
+	position: relative;
+	top:-1500px;
+	text-align: center;
+	float: left;
+}
+.title-anim{
+	margin-left: 10%;
+	color: #000;
+	top: 300px;
+	-webkit-transition : all 1s;
+	-moz-transition : all 1s;
+	-ms-transition : all 1s;
+	transition : all 1s;
+}
+.text a{
+	position: relative;
+	top:120px;
+}
+.contents{
+	position: relative;
+	width:500px;
+	height: 500px;
+	background-color: #fff;
+	left: -2000px;
+	opacity: 0.6;
+	color: #000;
+	font-size: 30px;
+	padding-top: 130px;
+	padding-left: 20px;
+	padding-right: 20px;
+	word-spacing: 10px;
+}
+.contents-anim{
+	top:230px;
+	left: 0;
+	margin-left: 50%;
+	-webkit-transition : all 2s;
+	-moz-transition : all 2s;
+	-ms-transition : all 2s;
+	transition : all 2s;
+}
+.text2{
+	position: relative;
+	left: -2000px;
+	float: left;
+	height: 300px;
+	width: 450px;
+	max-height: 350px;
+	max-width: 500px;
+	text-align: center;
+}
+.text2-anim{
+	background-image: url("images/46.jpg");
+	top: 250px;
+	left: 0px;
+	margin-left: 50px;
+	-webkit-transition : all 2s;
+	-moz-transition : all 2s;
+	-ms-transition : all 2s;
+	transition : all 2s;
+}
+.text2 a{
+	position: relative;
+	top: 230px;
+	font-weight: bold;
+}
+.text2 a:link{
+	color:#000;
+}
+.text3{
+	position: relative;
+	background-image: url("images/52.jpg");
+	top: -5000px;
+	width: 430px;
+	height: 300px;
+	max-width: 500px;
+	max-height: 350px;
+	text-align: center;
+}
+.text3 a{
+	position: relative;
+	top: 230px;
+}
+.text3 a:link{
+	color:#000;
+}
+
+.text3-anim{
+	top:250px;
+	float: left;
+	margin-left: 50px;
+	-webkit-transition : all 3s;
+	-moz-transition : all 3s;
+	-ms-transition : all 3s;
+	transition : all 3s;
+}
+.text4{
+	position: relative;
+	left:-2000px;
+	width: 450px;
+	max-height: 350px;
+	height: 300px;
+	max-width: 500px;
+	background-image: url("images/21.jpg");
+	text-align: center;
+}
+.text4 a{
+	position: relative;
+	top: 230px;
+}
+.text4 a:link{
+	color:#000;
+}
+
+.text4-anim{
+	top: 250px;
+	left: 0px;
+	float: left;
+	margin-left: 50px;
+	-webkit-transition : all 2s;
+	-moz-transition : all 2s;
+	-ms-transition : all 2s;
+	transition : all 2s;
+}
+.climbing{
+	height: 400px;
+	width:100%;
+	background-color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	color:#000;
+}
+.climbing img{
+	width:600px;
+	display: inline;
+	float: left;
+}
+.jianjie{
+	padding-top: 20px;
+	width:500px;
+	font-size: 30px;
+	float:right;
+	margin-right: 100px;
+}
+.cycling{
+	width:100%;
+	background-color: #fff;
+	position: relative;
+	top:600px;
+	height: 430px;
+	color:#000;
+	font-size: 20px;
+	padding:10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.cycling img{
+	width:600px;
+	height: 400px;
+	float: left;
+}
+.cycling-bewrite{
+	padding-top: 20px;
+	width: 500px;
+	float: right;
+	margin-right: 100px;
+	font-size: 30px;
+}
+.foot{
+	width: 100%;
+	height: 300px;
+	background-color: #000;
+	opacity: 0.7;
+	color: #fff;
+}
+.help{
+	margin-left: 35%;
+	float: left;
+	margin-top: 50px;
+}
+.help ol{
+	list-style: none;
+}
+.help li{
+	font-size: 25px;
+}
+.help a{
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	text-decoration: none;
+}
+.contact{
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.contact ol{
+	list-style: none;
+}
+.contact li{
+	font-size: 25px;
+	text-align: center;
+}
+.contact a{
+	margin-top: 10px;
+	display: block;
+	font-size: 20px;
+	text-decoration-style: none;
+}
+.friends{
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.friends ol{
+	list-style: none;
+}
+.friends li{
+	font-size: 25px;
+}
+.friends a{
+	margin-top: 10px;
+	display: block;
+	font-size: 20px;
+	text-decoration-style: none;
+}

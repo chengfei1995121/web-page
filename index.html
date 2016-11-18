@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>龙山探险</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap\bootstrap\css\bootstrap-responsive.css"
+  rel="stylesheet">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="js/index.js">
+	</script>
+</head>
+<body>
+			<!--登录模拟框-->
+<div class="modal fade tp" id="Login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+  	<div class="modal-header">
+  		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+  		<h4 class="modal-title ct" id="myModalLabel">登录龙山探险</h4>
+  	</div>
+    <div class="modal-body">
+        	<form class="form-horizontal" role="form">
+        	<div class="form-group">
+        		<label for="inputEmail" class="col-sm-2 control-label">Email</label>
+        		<div class="col-sm-10">
+        		<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        		</div>
+        	</div>
+        	<div class="form-group">
+        		<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+   				 <div class="col-sm-10">
+      			<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    			</div>
+        	</div>
+        	<div class="form-group">
+    			<div class="col-sm-offset-2 col-sm-10">
+      			<div class="checkbox">
+       			<label>
+         			 <input type="checkbox">记住我
+       			</label>
+       			<div class="aright">
+   				<a href="#">忘记密码</a>
+   				</div>
+      			</div>
+   				</div>
+ 			</div>
+  			<div class="form-group">
+    			<div class="col-sm-offset-2 col-sm-10">
+      			<button type="submit" class="btn btn-primary btn-lg btn-block">登录</button>
+    			</div>
+  			</div>
+        </form>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+		<!--注册模拟框-->
+<div class="modal fade tp" id="signUp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+	<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-didden="true">
+					&times;
+				</button>
+				<h4 class="modal-title ct" id="myModalLabel">欢迎注册龙山探险</h4>
+				</div>
+				<div class="modal-body">
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label class="col-sm-2 control-label">用户名</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" placeholder="用户名">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-2 control-label">
+								手机号
+							</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" placeholder="mobile number">
+							</div>
+						</div>
+  						<div class="form-group">
+   							 <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    						<div class="col-sm-10">
+      							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    						</div>
+  						</div>
+  				<div class="form-group">
+    				<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+    				<div class="col-sm-10">
+      					<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    				</div>
+  				</div>
+  				<div class="form-group">
+  					<label class="col-sm-2 control-label">确认密码</label>
+  					<div class="col-sm-10">
+  						<input type="password" class="form-control" placeholder="Password">
+  					</div>
+  				</div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-primary btn-block">同意协议并注册</button>
+    </div>
+  </div>
+</form>
+
+</div>
+</div><!--header-->
+</div><!--content-->
+</div><!--dialog-->
+</div><!--fade-->
+<!--导航条-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
+  <div class="container-fluid">
+    <!-- 响应式设计 -->
+    <div class="navbar-header navbar-center">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">导航条</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand " href="#" id="cm">龙山探险</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" id="dh">
+        <li><a href="index.html">首页</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">活动</a>
+        <ul class="dropdown-menu" role="menu">
+        <li><a href="mountain.html">登山活动</a></li>
+        <li><a href="#">攀岩活动</a></li>
+        <li><a href="#">骑行活动</a></li>
+        <li><a href="#">徒步远足</a></li>
+        <li><a href="#"></a></li>
+        </ul>
+        </li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">课程</a>
+        <ul class="dropdown-menu" role="menu">
+        <li><a href="#">登山课程</a></li>
+        <li><a href="#">攀冰课程</a></li>
+        <li><a href="#">攀岩课程</a></li>
+        </ul>
+       	</li>
+        <li><a href="#">资料</a></li>
+        <li><a href="#">关于我们</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-primary">确定</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" data-toggle="modal" data-target="#Login">登录</a></li>
+      <li><a href="#" data-toggle="modal" data-target="#signUp">注册</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="we">
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7">
+        </li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
+        <li data-target="#myCarousel" data-slide-to="10"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+           <img src="images\26.jpg" alt="First slide" class="img-responsive rr">
+           <div class="carousel-caption"><div class="cl">DON’T BE AFRAID TO RISK!<span class="cl-s">TRY SOMETHING NEW!</span></div>
+           <a href="#articles"><span class="glyphicon glyphicon-chevron-down downpoint"></span></a>
+           </div>
+        </div>
+        <div class="item">
+            <img src="images\09.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="images\16.jpg" alt="Third slide">
+        </div>
+        <div class="item">
+        	<img src="images\04.jpg" class="img-responsive" alt="4">
+        </div>
+        <div class="item">
+            <img src="images\19.jpg" alt="5">
+        </div>
+        <div class="item">
+            <img src="images\15.jpg" alt="6">
+        </div>
+        <div class="item">
+            <img src="images\18.jpg" alt="7">
+        </div>
+        <div class="item">
+            <img src="images\25.jpg" alt="8">
+        </div>
+        <div class="item">
+            <img src="images\13.jpg" alt="9">
+        </div>
+        <div class="item">
+            <img src="images\28.jpg" alt="10">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航-->
+    <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">
+    </a>
+    <a class="carousel-control right" href="#myCarousel"
+        data-slide="next">
+    </a>
+</div>
+</div>
+</div>
+<!--登山-->
+<div id=articles>
+	<div id=article1 class="article section1">
+	<div id="text1" class="text" ><a href="#"><button class="btn btn-primary btn-lg">立即报名</button></a></div>
+	<div id="contents1" class="contents">
+	十余年攀登经验，数十座6000千米级山峰登顶，国内最专业的登山队伍，国际知名的高山向导。我们提供最优质的攀登服务，让你全身心享受攀登的乐趣</div>
+	</div>
+	<div class="climbing" id="ourteam"><img src="images/33.jpg">
+	<div class="jianjie"> 
+	<h1><b>攀岩</b></h1>
+	是技术与意志的挑战，是心中热血的狂欢
+	<p>我们提供最全的技术装备,最好的攀岩教练，一起探寻岩壁的乐趣</p>
+	<a href="#"><button class="btn btn-primary">立即报名</button></a>
+	</div>
+	</div>
+	<div class="article section2">
+		<div class="cycling">
+		<img src="images/48.jpg">
+		<div class="cycling-bewrite"><h1><b>骑行</b></h1>
+		用车轮丈量青春，用激情成就梦想
+    <p>跟随我们，在你的青春里留下骄傲的回忆</p>
+		<a href="#"><button class="btn btn-primary">立即报名</button></a>
+		</div>		
+		</div>
+	</div>
+	<div id="article2" class="article section3">
+		<div id="text2" class="text2"><a href="#"><button class="btn btn-lg btn-info">攀冰课程</button></a></div>
+		<div id="text3" class="text3"><a href="#"><button class="btn btn-lg btn-info">登山课程</button></a></div>
+		<div id="text4" class="text4"><a href="#"><button class="btn-info btn-lg btn">攀岩课程</button></a></div>
+	</div>
+</div>
+<div class="foot">
+	<div class="help">
+	<ol>
+		<li>帮助反馈</li>
+		<li><a href="#">龙山客服</a></li>
+		<li><a href="#">反馈问题</a></li>
+		<li><a href="#">腾讯微博</a></li>
+		<li><a href="#">新浪微博</a></li>
+	</ol>
+	</div>
+	<div class="contact">
+	<ol>
+		<li>联系我们</li>
+		<li><a href="#">QQ联系</a></li>
+		<li><a href="#">邮箱联系</a></li>
+		<li><a href="#">电话联系</a></li>
+	</ol>
+	</div>
+	<div class="friends">
+	<ol>
+		<li>友情链接</li>
+		<li><a href="#">户外资料网</a></li>
+		<li><a href="#">磨房户外</a></li>
+		<li><a href="#">绿野户外</a></li>
+		<li><a href="#">盗版岩与酒</a></li>
+	</ol>
+	</div>
+</div>
+<script type="text/javascript">
+	var we=document.getElementById('we').clientHeight;
+	var articleHeight=document.getElementById('article1').clientHeight;
+	var text1=document.getElementById('text1');
+	var contents1=document.getElementById('contents1');
+	var ourteam=document.getElementById('ourteam').clientHeight;
+	var text2=document.getElementById('text2');
+	var text3=document.getElementById('text3');
+	var text4=document.getElementById('text4');
+	var he=(articleHeight*2)+ourteam;
+	window.addEventListener('scroll',scrollHandler);
+	function scrollHandler(e) {
+		var  scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+		if(scrollTop>we){
+			text1.classList.add('title-anim');
+			contents1.classList.add('contents-anim');
+		}
+			//article1img.classList.add('article1-img-anim');
+		if(scrollTop>(we+he))
+			{
+				text2.classList.add('text2-anim');
+				text3.classList.add('text3-anim');
+				text4.classList.add('text4-anim');
+			}
+
+	}
+</script>
+</body>
+</html>
